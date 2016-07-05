@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ChessFinal.jnlp">
+  <information>
+    <title>ChessFinal</title>
+    <vendor>soheil</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ChessFinal.jar" size="197720" download="eager" />
+    <jar href="lib/jfoenix.jar" size="2154906" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ChessFinal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="chessfinal.ChessFinal"  name="ChessFinal" />
+  <update check="always"/>
+</jnlp>
